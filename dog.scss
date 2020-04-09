@@ -1,0 +1,311 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  letter-spacing: 1px;
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+header {
+  .logo {
+    color: black;
+    display: block;
+    font-size: 2em;
+    margin: 0.67em 0;
+    font-weight: bold;
+    text-decoration: none;
+    height: 55px;
+    width: 300px;
+    padding-left: 30px;
+  }
+  height: 80px;
+  width: 100%;
+  background: #a8ff78;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #78ffd6, #a8ff78);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 1;
+  border-bottom: 3px solid black;
+}
+
+nav a {
+  &:hover {
+    color: grey;
+  }
+  transition: 0.4s ease;
+  text-decoration: none;
+  margin-right: 26px;
+  color: black;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.container {
+  h1 {
+    letter-spacing: 2px;
+    margin-top: 0;
+    color: white;
+    padding-top: 70px;
+    padding-left: 850px;
+    text-shadow: 3px 3px 0 #000;
+  }
+  width: 100%;
+  height: 450px;
+  background-image: url("happydog3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 3px solid black;
+}
+
+.containprices {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #a8ff78;
+  border-bottom: 2px solid black;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(120, 255, 214, 0.7), rgba(168, 255, 120, 0.7));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(120, 255, 214, 0.7),rgba(168, 255, 120, 0.7));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.box {
+  margin-bottom: 23px;
+  width: 230px;
+  height: 300px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  background: #a8ff78;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(120, 255, 214, 0.6), rgba(168, 255, 120, 0.6));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(120, 255, 214, 0.6),rgba(168, 255, 120, 0.6));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.smallbox {
+  p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #515151;
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+  max-height: 100px;
+  flex: 1 0 auto;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.bigtext {
+  position: relative;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.bigbox {
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style-type: none;
+    letter-spacing: 1px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    padding-top: 7px;
+    text-align: center;
+  }
+  flex: 2 0 auto;
+  border: 2px solid black;
+}
+
+.echipa-container {
+  width: 100%;
+  height: 540px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("happydog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.echipa-box {
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: rgba(168, 255, 120, 0.9);
+  }
+  width: 260px;
+  height: 430px;
+  text-align: center;
+  margin-bottom: 20px;
+  background: rgba(255,255,255, 0.4);
+  border-radius: 10px;
+  padding-top: 10px;
+  padding: 10px;
+}
+
+.echipa-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: auto;
+  background-image: url("cata.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-contain {
+  height: 680px;
+  width: auto;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background: #a8ff78;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(120, 255, 214, 0.6), rgba(168, 255, 120, 0.6));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(120, 255, 214, 0.6),rgba(168, 255, 120, 0.6));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-title {
+  h1 {
+    margin-top: 0;
+    padding-top: 15px;
+  }
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+textarea {
+  border-radius: 5px;
+}
+
+label {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.buttonsub {
+  margin: auto;
+  width: 20%;
+  margin-top: 20px;
+  background-color: #a8ff78;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.testimonials-container {
+  width: 100%;
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("happydog6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid black;
+}
+
+.columnbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: 2px solid gray;
+  background-color: rgba(128,128,128, 0.4);
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  width: 57%;
+  height: 150px;
+}
+
+.column-img {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-image: url("cata.jpg");
+}
+
+.restul {
+  p{
+    font-size: 17px;
+  }
+  span {
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 15px;
+    display: inline;
+  }
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+.footer {
+  p {
+    margin: 0;
+    padding: 5px;
+  }
+  height: 35px;
+  width: 100%;
+  color: black;
+  text-align: center;
+  letter-spacing: 1px;
+  background: #a8ff78;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(120, 255, 214, 0.6), rgba(168, 255, 120, 0.6));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(120, 255, 214, 0.6),rgba(168, 255, 120, 0.6));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
